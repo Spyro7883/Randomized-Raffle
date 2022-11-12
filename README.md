@@ -10,6 +10,6 @@ Install the packages using yarn both on the frontend and main folder, then run y
 
 After go and connect to your JSON-RPC url shown at yarn hardhat node using metamask wallet (build a custom network and add the url there). Import one of the private keys shown on terminal and now you should be able to enter the raffle.
 
-For the Goerli Testnet, get some geth from the https://faucets.chain.link/rinkeby and use as entrance fee.
+For the Goerli Testnet, get some geth from the https://faucets.chain.link/goerli and use as entrance fee.
 
 To pick the winner use "yarn hardhat run scripts/mockOffchain.js" and then the contract will send the accumulated value back to the winner of the lottery.
